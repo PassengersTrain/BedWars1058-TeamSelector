@@ -43,4 +43,8 @@ public class TeamSelectorOpenEvent extends Event {
     public @NotNull HandlerList getHandlers() {
         return HANDLERS;
     }
+
+    public boolean isCancelled() {
+        return cancelled;
+    }
 }
